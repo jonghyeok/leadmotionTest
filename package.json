@@ -1,0 +1,39 @@
+{
+  "name": "leadmotionTest",
+  "version": "0.0.0",
+  "description": "leadmotionTest!",
+  "author": "jonghyeok <jjhsnail@naver.com>",
+  "private": true,
+  "main": "lib/entry.js",
+  "scripts": {
+    "prebuild": "npm run clean",
+    "start": "node .",
+    "test": "eslint .",
+    "build": "babel --out-dir lib src",
+    "dev": "cross-env NODE_ENV=development nodemon --exec babel-node -- src/index.js",
+    "dev-inspect": "cross-env NODE_ENV=development nodemon --exec babel-node --inspect --debug-brk -- src/index.js",
+    "clean": "rimraf lib"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/jonghyeok/leadmotionTest#readme",
+  "repository": "jonghyeok/leadmotionTest",
+  "bugs": {
+    "url": "https://github.com/jonghyeok/leadmotionTest/issues"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.16.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-eslint": "^7.1.0",
+    "babel-preset-env": "^1.1.0",
+    "babel-preset-stage-1": "^6.16.0",
+    "cross-env": "^3.1.4",
+    "eslint": "^3.9.1",
+    "eslint-config-prev": "^3.0.0",
+    "eslint-plugin-babel": "^4.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "nodemon": "^1.11.0",
+    "rimraf": "^2.5.4"
+  }
+}
