@@ -21,7 +21,8 @@
     "url": "https://github.com/jonghyeok/leadmotionTest/issues"
   },
   "dependencies": {
-    "babel-polyfill": "^6.16.0"
+    "babel-polyfill": "^6.16.0",
+    "leapjs": "^0.6.4"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
