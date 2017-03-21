@@ -4,7 +4,7 @@
   "description": "leadmotionTest!",
   "author": "jonghyeok <jjhsnail@naver.com>",
   "private": true,
-  "main": "lib/entry.js",
+  "main": "lib/index.js",
   "scripts": {
     "prebuild": "npm run clean",
     "start": "node .",
@@ -21,20 +21,21 @@
     "url": "https://github.com/jonghyeok/leadmotionTest/issues"
   },
   "dependencies": {
-    "babel-polyfill": "^6.20.0",
-    "leapjs": "^0.6.4"
+    "babel-polyfill": "^6.23.0",
+    "leapjs": "^0.6.4",
+    "leapjs-plugins": "^0.1.12"
   },
   "devDependencies": {
-    "babel-cli": "^6.18.0",
-    "babel-eslint": "^7.1.0",
-    "babel-preset-env": "^1.1.0",
+    "babel-cli": "^6.24.0",
+    "babel-eslint": "^7.2.0",
+    "babel-preset-env": "^1.2.2",
     "babel-preset-stage-1": "^6.16.0",
-    "cross-env": "^3.1.4",
-    "eslint": "^3.9.1",
-    "eslint-config-prev": "^3.0.0",
-    "eslint-plugin-babel": "^4.0.0",
+    "cross-env": "^3.2.4",
+    "eslint": "^3.18.0",
+    "eslint-config-prev": "^3.8.0",
+    "eslint-plugin-babel": "^4.1.1",
     "eslint-plugin-import": "^2.2.0",
     "nodemon": "^1.11.0",
-    "rimraf": "^2.5.4"
+    "rimraf": "^2.6.1"
   }
 }
